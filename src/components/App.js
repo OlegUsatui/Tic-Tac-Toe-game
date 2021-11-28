@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
-import "./App.css";
+import "../styles/App.css";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { findWinner, restartGame } from "./utils/functions";
-import Board from "./components/Board/Board";
-import Modal from "./components/Modal/Modal";
-import Score from "./components/Score/Score";
+import { findWinner, restartGame } from "../utils/functions";
+import Board from "./Board";
+import Score from "./Score";
+import Modal from "./Modal";
 
 const App = () => {
   const [board, setBoard] = useState(Array(9).fill(""));

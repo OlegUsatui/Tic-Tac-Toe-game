@@ -7,33 +7,32 @@
 
 .line0{
     position: absolute;
-    top: 45px;
+    top: 55px;
     left: 8px;
     height: 8px;
     width: 290px;
     background-color: #AF3D38;
     border-radius: 5px;
-
 }
+
 .line1{
     position: absolute;
-    top: 145px;
+    top: 150px;
     left: 8px;
     height: 8px;
     width: 290px;
     background-color: #AF3D38;
-    border-radius: 5px;
-        
+    border-radius: 5px;    
 }
+
 .line2{
     position: absolute;
-    top: 245px;
+    top: 250px;
     left: 8px;
     height: 8px;
     width: 290px;
     background-color: #AF3D38;
-    border-radius: 5px;
-        
+    border-radius: 5px;     
 }
 
 .line3{
@@ -43,8 +42,7 @@
     height: 295px;
     width: 8px;
     background-color: #AF3D38;
-    border-radius: 5px;
-        
+    border-radius: 5px;     
 }
 
 .line4{
@@ -54,8 +52,7 @@
     height: 295px;
     width: 8px;
     background-color: #AF3D38;
-    border-radius: 5px;
-        
+    border-radius: 5px;      
 }
 
 .line5{
@@ -65,8 +62,7 @@
     height: 295px;
     width: 8px;
     background-color: #AF3D38;
-    border-radius: 5px;
-        
+    border-radius: 5px;     
 }
 
 
@@ -79,7 +75,6 @@
     background-color: #AF3D38;
     border-radius: 5px;
     transform: rotate(135deg);
-
 }
 
 .line7{
@@ -91,5 +86,4 @@
     background-color: #AF3D38;
     border-radius: 5px;
     transform: rotate(45deg);
-
 }

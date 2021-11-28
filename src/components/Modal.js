@@ -1,5 +1,5 @@
 import { useState } from "react";
-import css from "./Modal.module.css";
+import "../styles/Modal.css";
 
 const Modal = ({ onSubmit }) => {
   const [playerName1, setPlayerName1] = useState("");
@@ -11,13 +11,12 @@ const Modal = ({ onSubmit }) => {
   };
 
   return (
-    <div className={css.overlay} name="overlay">
-      <div className={css.modal}>
-        <form className={css.form} onSubmit={handleSubmit}>
-          <h2 className={css.title}>Welcome to the game of tic tac toe</h2>
-          <p className={css.text}>Enter the name of the player №1</p>
+    <div className="overlay">
+      <div className="modal">
+        <form className="form" onSubmit={handleSubmit}>
+          <h2>Welcome to the game of tic tac toe</h2>
+          <p className="text">Enter the name of the player №1</p>
           <input
-            className={css.input}
             value={playerName1}
             type="text"
             onChange={(e) => setPlayerName1(e.target.value)}
@@ -25,9 +24,8 @@ const Modal = ({ onSubmit }) => {
             autoFocus
             placeholder="Player Х"
           ></input>
-          <p className={css.text}>Enter the name of the player №2</p>
+          <p className="text">Enter the name of the player №2</p>
           <input
-            className={css.input}
             value={playerName2}
             type="text"
             onChange={(e) => setPlayerName2(e.target.value)}
@@ -35,7 +33,7 @@ const Modal = ({ onSubmit }) => {
             autoFocus
             placeholder="Player О"
           ></input>
-          <button type="submit" className={css.buttonSubmit}>
+          <button type="submit" className="buttonSubmit">
             Start
           </button>
         </form>

@@ -1,5 +1,5 @@
-import Square from "../Square/Square";
-import "./Board.css";
+import "../styles/Board.css";
+import Square from "./Square";
 
 const Board = ({ indexWinRow, board, handleClick }) => {
   return (
@@ -15,7 +15,7 @@ const Board = ({ indexWinRow, board, handleClick }) => {
             />
           );
         })}
-        {<div className={`line${indexWinRow}`}></div>}
+        <div className={`line${indexWinRow}`}></div>
       </div>
     </>
   );
