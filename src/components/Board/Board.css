@@ -1,0 +1,95 @@
+.board{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 300px;
+}
+
+.line0{
+    position: absolute;
+    top: 45px;
+    left: 8px;
+    height: 8px;
+    width: 290px;
+    background-color: #AF3D38;
+    border-radius: 5px;
+
+}
+.line1{
+    position: absolute;
+    top: 145px;
+    left: 8px;
+    height: 8px;
+    width: 290px;
+    background-color: #AF3D38;
+    border-radius: 5px;
+        
+}
+.line2{
+    position: absolute;
+    top: 245px;
+    left: 8px;
+    height: 8px;
+    width: 290px;
+    background-color: #AF3D38;
+    border-radius: 5px;
+        
+}
+
+.line3{
+    position: absolute;
+    top:3px;
+    left: 47px;
+    height: 295px;
+    width: 8px;
+    background-color: #AF3D38;
+    border-radius: 5px;
+        
+}
+
+.line4{
+    position: absolute;
+    top:3px;
+    left: 147px;
+    height: 295px;
+    width: 8px;
+    background-color: #AF3D38;
+    border-radius: 5px;
+        
+}
+
+.line5{
+    position: absolute;
+    top:3px;
+    left: 247px;
+    height: 295px;
+    width: 8px;
+    background-color: #AF3D38;
+    border-radius: 5px;
+        
+}
+
+
+.line6{
+    position: absolute;
+    bottom: -45px; 
+     left: 147px; 
+    height: 400px;
+    width: 8px;
+    background-color: #AF3D38;
+    border-radius: 5px;
+    transform: rotate(135deg);
+
+}
+
+.line7{
+    position: absolute;
+    bottom: -50px; 
+     left: 147px; 
+    height: 400px;
+    width: 8px;
+    background-color: #AF3D38;
+    border-radius: 5px;
+    transform: rotate(45deg);
+
+}
